@@ -1,0 +1,68 @@
+nav {
+    background-color: rgba(248, 216, 224, 0.534);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 15%;
+
+}
+
+header {
+    background-image: url('../assets/images/model2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+
+.list-item {}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.list-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    list-style-type: none;
+}
+.head-sec{
+    display: flex;
+    background-color: rgba(39, 36, 36, 0.534);
+    width: 75%;
+    margin: auto;
+}
+
+.fash {
+    display: flex;
+    height: 20em;
+    color: white;
+}
+
+
+.fash h1 {
+    padding-left: 1.2em;
+    font-size: 200px;
+    margin-top: -10px;
+}
+
+.fash h3 {
+    margin-top: 130px;
+    font-size: 40px;
+    height: 50px;
+}
+
+.fash h4 {
+    margin-top: 180px;
+    font-size: 40px;
+    margin-left: -230px;
+}
+.fash h5{
+    margin-top: 220px;
+    font-size: 70px;
+    margin-left: -290px;    
+}

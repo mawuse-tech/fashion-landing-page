@@ -8,12 +8,30 @@ nav {
 
 }
 
+*{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+nav button{
+    width: 100px;
+    height: 60px;
+    background-color: #9A1036;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin: 5px;
+    font-weight: bold;
+    
+}
+
 header {
     background-image: url('../assets/images/model2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 90vh;
+    width: 100%;
 }
 
 .list-item {}
@@ -32,6 +50,7 @@ nav a {
 }
 .head-sec{
     display: flex;
+    justify-content: space-between;
     background-color: rgba(39, 36, 36, 0.534);
     width: 75%;
     margin: auto;
@@ -58,11 +77,51 @@ nav a {
 
 .fash h4 {
     margin-top: 180px;
-    font-size: 40px;
+    font-size: 35px;
     margin-left: -230px;
 }
 .fash h5{
     margin-top: 220px;
-    font-size: 70px;
+    font-size: 65px;
     margin-left: -290px;    
 }
+.head-btn{
+margin-top: 190px;
+margin-right: 30px;
+
+}
+.head-btn button{
+    width: 150px;
+    height: 70px;
+    margin: 5px;
+    border: 10px solid white;
+    border-radius: 7px;
+    border: none;
+    font-size: 20px;
+    background-color: #9A1036;
+    color: white;
+    font-weight: bold;
+}
+.main-sec{
+    width: 100%;
+    height: 90vh;
+}
+
+.sec-cont{
+    height: 100vh;
+}
+/* .sec-img{
+    width: 50%;
+    height: 200px;
+}  */
+ .sec-img{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+ }
+ .sec-img img{
+    width: 100%;
+    height:50vh;
+    
+ }
+ 

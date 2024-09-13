@@ -10,6 +10,9 @@ nav {
     left: 0;
     right: 0;
 }
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 * {
     margin: 0;
@@ -17,7 +20,7 @@ nav {
 }
 
 nav button {
-    width: 100px;
+    width: 90px;
     height: 50px;
     background-color: #b30738;
     border: 1px dotted white;
@@ -25,6 +28,7 @@ nav button {
     color: white;
     margin: 5px;
     font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
@@ -44,6 +48,8 @@ nav a {
     color: rgb(253, 249, 249);
     font-size: 20px;
     font-weight: bold;
+    text-shadow: 0 0 10px
+    rgba(0, 0, 0, 0.5)
 
 }
 
@@ -93,7 +99,7 @@ nav a {
 .fash h5 {
     margin-top: 220px;
     font-size: 65px;
-    margin-left: -290px;
+    margin-left: -230px;
 }
 
 .head-btn {
@@ -103,8 +109,8 @@ nav a {
 }
 
 .head-btn button {
-    width: 150px;
-    height: 70px;
+    width: 140px;
+    height: 60px;
     margin: 5px;
     border-radius: 7px;
     border: 1px dotted white;
@@ -112,6 +118,7 @@ nav a {
     background-color: #9A1036;
     color: white;
     font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
@@ -129,7 +136,7 @@ nav a {
 .sec-img {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 16px;
     grid-row-gap: 22px;
     width: 80%;
@@ -275,7 +282,8 @@ ul {
     font-weight: bold;
 }
 a{color: white;
-    font-size: 20px;
+    font-size: 15px;
+    
 }
  .foot-flex{
     line-height: 1.5;
